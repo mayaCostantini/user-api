@@ -2961,7 +2961,7 @@ components:
                         nullable: true
                         description: Advised changes to manifest files
                         items:
-                          type: array
+                          type: object
                           description: A change that was advised
                       advised_runtime_environment:
                         nullable: true
